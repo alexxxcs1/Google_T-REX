@@ -1,6 +1,6 @@
 var ScreenSize = {width:640,height:1040};
 
-var BaseUrl = 'http://packy.club/Google_T-REX/';
+var BaseUrl = 'http://packy.club/gitProject/Google_T-REX/';
 
 var pageLock=true;
 function pageScoll(e)
@@ -76,7 +76,7 @@ $(document).ready(function()
     $("#loaderScence").css('left',(ScreenSize.width-640)/2);
 
     if (GetQueryString('testmode')=='true') {
-        loaderClass=new ResLoader(BaseUrl,true,3000,'Google_T-REX'); // 服务器项目地址，调试模式，本地服务器接口，项目名字
+        loaderClass=new ResLoader(BaseUrl,true,3000,'gitProject/Google_T-REX'); // 服务器项目地址，调试模式，本地服务器接口，项目名字
     }else{
         loaderClass=new ResLoader(BaseUrl,false);// 线上
     }
