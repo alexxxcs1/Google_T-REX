@@ -10,7 +10,7 @@ function pageScoll(e)
         e.preventDefault(); //阻止页面滑动动作
     }
 }
-
+//添加测试注释
 function GetQueryString(name)
 {
      var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
