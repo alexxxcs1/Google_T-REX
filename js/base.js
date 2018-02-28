@@ -21,7 +21,7 @@ function GetQueryString(name)
 var load_list={
     'img':[
         {'name':'tree','src':'tree.png'},
-        {'name':'Trex','src':'Trex.png'},
+        {'name':'Trex','src':'trex.png'},
         
     ],
     'group':[
